@@ -1,7 +1,9 @@
 package main
 
-import "github.com/100-days-of-go/cron"
+import (
+	"github.com/100-days-of-go/gin"
+)
 
 func main() {
-	cron.Main()
+	gin.Main()
 }
